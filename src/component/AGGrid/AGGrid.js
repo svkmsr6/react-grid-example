@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './AGGrid.css';
 import { AgGridReact } from 'ag-grid-react';
 import 'ag-grid-community/dist/styles/ag-grid.css';
-import 'ag-grid-community/dist/styles/ag-theme-bootstrap.css';
+import 'ag-grid-community/dist/styles/ag-theme-balham-dark.css';
 
 export default class AGGrid extends Component {
   state = {
@@ -38,7 +38,7 @@ export default class AGGrid extends Component {
     return (
         <div
             ag-grid="gridOptions"
-            className="ag-theme-bootstrap"
+            className="ag-theme-balham-dark"
             style={{ height: '31vh', width: '100vw' }}
         >
             <AgGridReact
